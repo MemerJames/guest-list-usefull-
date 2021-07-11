@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>C80</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h1>Guest List</h1>
+            <br>
+            <br>
+            <span>
+                <input type="text" id="name_guests_input">
+                <br>
+                <br>
+                <button onclick="submitguest()" id="submit">Submit</button>
+            </span>
+            <hr>
+            <br>
+            <div id="guests"></div>
+            <br>
+            <h1  id="secretlist">Guest List</h1>
+            <br>
+            <div>
+            <button onclick="showguestlist()" id="showlist">Show</button>
+            <br>
+            <div id="guest_list"></div>
+        </div>
+            <br>
+            <div>
+            <button onclick="sorting()" id="sort_button">Sorted List</button>
+            <div id="sorted_list"></div>
+        </div>
+            <br>
+            <br>
+            <span>
+                <input type="text" id="search_guest_name">
+                <br>
+                <br>
+                <button onclick="search()" id="search_guest">Search</button>
+            </span>
+            <br>
+            <br>
+            <div id="guests_name_results"></div>
+        </center>
+    </body>
+
+
+</html>
